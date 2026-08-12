@@ -1,4 +1,8 @@
-cmake_minimum_required(VERSION 3.5)
+cmake_minimum_required(VERSION 3.10)
+
+# Overrides the CMake policy minimum globally for subdirectories
+set(CMAKE_POLICY_VERSION_MINIMUM 3.10)
+
 project(aesd-assignments)
 # A list of all automated test source files
 # At minimum it should include the files in the test/assignmentX directory

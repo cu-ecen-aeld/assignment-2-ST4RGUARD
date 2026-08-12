@@ -1,7 +1,9 @@
+/* clang-format off */
 #include "../../assignment-autotest/Unity/src/unity.h"
-#include <string.h>
+#include "string.h"
 #include "../../assignment-autotest/test/assignment1/username-from-conf-file.h"
 #include "../../examples/autotest-validate/autotest-validate.h"
+/* clang-format on */
 #include <stdbool.h>
 #include <stdlib.h>
 
