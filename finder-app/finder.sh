@@ -30,7 +30,7 @@ search_dir() {
       # It's a file - process it
       ((file_cnt++))
 
-      while IFS= read -r line; do
+      while IFS= read -r line || [ -n "$line" ]; do
         if [[ "$line" == *"$search_term"* ]]; then
           ((match_cnt++))
         fi
